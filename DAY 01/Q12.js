@@ -1,0 +1,13 @@
+// *Write a Program to check if a number is prime or not?
+const isPrime = (n) =>{
+    if(n<=1){
+        return false;
+    }
+    for(let i=2;i<n;i++){
+        if(n%i===0){
+            return false;
+        }
+    }
+    return true;
+}
+console.log(isPrime(15));
