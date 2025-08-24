@@ -12,7 +12,7 @@ const findLargestNumber = (a) =>{
 console.log(findLargestNumber([50,30,55,20,58]));
 
 // ?Method 2
-const findLargestNumber = (a) => {
-    return Math.max(...a);
-}
-console.log(findLargestNumber([50,53,22,70,41]));
+// const findLargestNumber = (a) => {
+//     return Math.max(...a);
+// }
+// console.log(findLargestNumber([50,53,22,70,41]));
